@@ -9,7 +9,7 @@ public class Pile2<T> implements PileI<T>{
     /** par délégation : utilisation de la class Stack */
     private Stack<T> stk;
     /** la capacité de la pile */
-    private int capacité;
+    private int capacite;
 
     /** Création d'une pile.
      * @param taille la "taille maximale" de la pile, doit être > 0
@@ -32,6 +32,20 @@ public class Pile2<T> implements PileI<T>{
 
     public T sommet() throws PileVideException{
         // à compléter
+    }
+    
+    public boolean estPleine(){
+        
+    }
+    
+    public boolean estVide() {
+       
+    }
+    
+    public int capacite() {
+    }
+
+    public int taille() {
     }
 
     // recopier ici toutes les autres méthodes
